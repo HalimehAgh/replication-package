@@ -1,0 +1,13 @@
+hypothesis_id,dimension,transition,wald_statistic,wald_p_value,wald_df,significant,interpretation,n_observations,n_clusters
+H1.3_H1.1,structural_complexity,introduction,18.331503117915876,0.031516589174892085,9,True,Heterogeneous effects,5890,176
+H1.3_H1.2,code_size,introduction,16.242267227470588,0.06199156412517348,9,False,Homogeneous effects,5890,176
+H1.3_H1.3,defect_proneness,introduction,23.56018459267628,0.00505357626924241,9,True,Heterogeneous effects,5890,176
+H1.3_H1.4,understandability,introduction,39.61521167948601,8.920310833659961e-06,9,True,Heterogeneous effects,5890,176
+H1.3_H1.5,testing_quality,introduction,76.64298129557909,7.48179296294893e-13,9,True,Heterogeneous effects,5890,176
+H1.3_H1.6,ml_specific,introduction,19.215593180623458,0.023420894051068397,9,True,Heterogeneous effects,5890,176
+H1.3_H2.1,structural_complexity,removal,6.713657870967221,0.6669036005728793,9,False,Homogeneous effects,2937,170
+H1.3_H2.2,code_size,removal,7.239068459052749,0.6122442960350856,9,False,Homogeneous effects,2937,170
+H1.3_H2.3,defect_proneness,removal,16.798771617132108,0.05196204031167917,9,False,Homogeneous effects,2937,170
+H1.3_H2.4,understandability,removal,14.37682440518203,0.10953808002384269,9,False,Homogeneous effects,2937,170
+H1.3_H2.5,testing_quality,removal,14.879547473085392,0.09429818418452962,9,False,Homogeneous effects,2937,170
+H1.3_H2.6,ml_specific,removal,22.637312885393328,0.007064337484635419,9,True,Heterogeneous effects,2937,170

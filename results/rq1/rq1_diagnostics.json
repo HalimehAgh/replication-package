@@ -1,0 +1,602 @@
+[
+  {
+    "multicollinearity": {
+      "max_vif": 2.0629264353193375,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0291777916435583,
+        "smell_CDTNE": 1.0973469416767265,
+        "smell_DCA": 1.0195829018347682,
+        "smell_IPA": 1.0484687118216371,
+        "smell_MMA": 1.0553921017939114,
+        "smell_MAP": 1.009285015197678,
+        "smell_UI": 1.0186383288646088,
+        "smell_GNC": 1.0722603822081214,
+        "smell_MNF": 1.0042602553183408,
+        "smell_PC": 1.061572061619598,
+        "baseline_score": 2.0629264353193375,
+        "total_churn": 1.6319138097861052,
+        "commit_count": 1.4854848326400676,
+        "bug_fix_ratio": 1.0788029327015511,
+        "lines_added": 1.1977438717320485,
+        "lines_deleted": 1.2050346970354953,
+        "is_feature_commit": 1.040353201930898,
+        "is_bug_fix": 1.0544383290053647,
+        "log_loc": 2.0557479283808124
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.6300414439869924,
+      "shapiro_p_value": 9.014288582922348e-74,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.8810003797364991,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.1",
+    "transition": "introduction",
+    "dimension": "structural_complexity",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.04706289592107871,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 3.023198901333817,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0251438598516422,
+        "smell_CDTNE": 1.0932009208217577,
+        "smell_DCA": 1.0192807776055286,
+        "smell_IPA": 1.0513179951302902,
+        "smell_MMA": 1.0556065689340428,
+        "smell_MAP": 1.0091079577623754,
+        "smell_UI": 1.0139431356654225,
+        "smell_GNC": 1.0622824758540084,
+        "smell_MNF": 1.0048618411460435,
+        "smell_PC": 1.062250227935403,
+        "baseline_score": 3.023198901333817,
+        "total_churn": 1.9787129567052744,
+        "commit_count": 1.4968445506738488,
+        "bug_fix_ratio": 1.0771312131731468,
+        "lines_added": 1.1976605408760612,
+        "lines_deleted": 1.2051844659385356,
+        "is_feature_commit": 1.0390662436429132,
+        "is_bug_fix": 1.0552098729846309,
+        "log_loc": 2.4536302611594922
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.47508417974947503,
+      "shapiro_p_value": 3.329373545683848e-81,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.889186915955837,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.2",
+    "transition": "introduction",
+    "dimension": "code_size",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.061056090745602844,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.5390191570336582,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0247947739913472,
+        "smell_CDTNE": 1.1180210357445033,
+        "smell_DCA": 1.0193499266991357,
+        "smell_IPA": 1.050972486377245,
+        "smell_MMA": 1.0577372309472313,
+        "smell_MAP": 1.0098908215020004,
+        "smell_UI": 1.01634770473596,
+        "smell_GNC": 1.0627024301399042,
+        "smell_MNF": 1.0043487649734453,
+        "smell_PC": 1.0613799323960844,
+        "baseline_score": 1.0710483719775525,
+        "total_churn": 1.5390191570336582,
+        "commit_count": 1.4892710869581334,
+        "bug_fix_ratio": 1.0787169609177576,
+        "lines_added": 1.197587519976413,
+        "lines_deleted": 1.205034504189286,
+        "is_feature_commit": 1.0386336350918424,
+        "is_bug_fix": 1.055734178795939,
+        "log_loc": 1.3812137503341115
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.6146782469704206,
+      "shapiro_p_value": 1.2860677425603589e-74,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.8221239357867067,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.3",
+    "transition": "introduction",
+    "dimension": "defect_proneness",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.028910860479233497,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.5283347384583337,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0248374400230005,
+        "smell_CDTNE": 1.093830648511336,
+        "smell_DCA": 1.0190098121309867,
+        "smell_IPA": 1.0482385161524677,
+        "smell_MMA": 1.0610548655970278,
+        "smell_MAP": 1.0091067747181148,
+        "smell_UI": 1.0191237988643194,
+        "smell_GNC": 1.0746452132877096,
+        "smell_MNF": 1.0041780053140208,
+        "smell_PC": 1.0613423553424095,
+        "baseline_score": 1.0382882863962213,
+        "total_churn": 1.5283347384583337,
+        "commit_count": 1.4917767092126164,
+        "bug_fix_ratio": 1.078043735138705,
+        "lines_added": 1.1976812304295696,
+        "lines_deleted": 1.2051944752767711,
+        "is_feature_commit": 1.0390567812472538,
+        "is_bug_fix": 1.0555514061993976,
+        "log_loc": 1.3647059052088513
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.625857320292083,
+      "shapiro_p_value": 5.268407980205873e-74,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9156136496325435,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.4",
+    "transition": "introduction",
+    "dimension": "understandability",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.07895797720397164,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.5281552271492242,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0283898195681132,
+        "smell_CDTNE": 1.1735034730963052,
+        "smell_DCA": 1.0283639693122113,
+        "smell_IPA": 1.051359371895861,
+        "smell_MMA": 1.0585960388542628,
+        "smell_MAP": 1.0091901994557353,
+        "smell_UI": 1.0254508252920884,
+        "smell_GNC": 1.062566918809655,
+        "smell_MNF": 1.0041858426476,
+        "smell_PC": 1.0613065368652304,
+        "baseline_score": 1.1439533047752475,
+        "total_churn": 1.5281552271492242,
+        "commit_count": 1.4903312059645273,
+        "bug_fix_ratio": 1.083257083627708,
+        "lines_added": 1.1982946604702054,
+        "lines_deleted": 1.2051033113272576,
+        "is_feature_commit": 1.0446837793407062,
+        "is_bug_fix": 1.0575601016126313,
+        "log_loc": 1.3642545952728449
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.46981630862591706,
+      "shapiro_p_value": 2.017711929225878e-81,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9518013513142065,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.5",
+    "transition": "introduction",
+    "dimension": "testing_quality",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.05030554051788691,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.5274600131851208,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.025033591247641,
+        "smell_CDTNE": 1.0966807150287177,
+        "smell_DCA": 1.0197555656475439,
+        "smell_IPA": 1.0486475140977563,
+        "smell_MMA": 1.0865204606970085,
+        "smell_MAP": 1.0101720799369769,
+        "smell_UI": 1.014847211441228,
+        "smell_GNC": 1.0679494289549896,
+        "smell_MNF": 1.0133372572927477,
+        "smell_PC": 1.0614132589424499,
+        "baseline_score": 1.0973124439334947,
+        "total_churn": 1.5274600131851208,
+        "commit_count": 1.4853071332270606,
+        "bug_fix_ratio": 1.079460073535735,
+        "lines_added": 1.1975991395695278,
+        "lines_deleted": 1.2050367119528111,
+        "is_feature_commit": 1.039514453025149,
+        "is_bug_fix": 1.0554327968679487,
+        "log_loc": 1.401788999983125
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.5849077497418018,
+      "shapiro_p_value": 3.545522376531574e-76,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.814612877750487,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H1.6",
+    "transition": "introduction",
+    "dimension": "ml_specific",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.044458033051814255,
+      "effect_size_interpretation": "small",
+      "sample_size": 5890,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 2.0907286798468867,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.055951406109795,
+        "smell_CDTNE": 1.066717295419479,
+        "smell_DCA": 1.0357499826343417,
+        "smell_IPA": 1.079256986037428,
+        "smell_MMA": 1.0427701749484184,
+        "smell_MAP": 1.0083251308712051,
+        "smell_UI": 1.0196806808121903,
+        "smell_GNC": 1.0721036483637774,
+        "smell_MNF": 1.0166330025583508,
+        "smell_PC": 1.0637021140056846,
+        "baseline_score": 1.979083994043861,
+        "total_churn": 1.71217541157777,
+        "commit_count": 1.6259811293805306,
+        "bug_fix_ratio": 1.060946120929865,
+        "lines_added": 1.0283645546336337,
+        "lines_deleted": 1.0401531037771108,
+        "is_feature_commit": 1.0155595716142756,
+        "is_bug_fix": 1.0393857401033795,
+        "log_loc": 2.0907286798468867
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.7013737146828908,
+      "shapiro_p_value": 3.6512950353655095e-58,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9054678238149991,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.1",
+    "transition": "removal",
+    "dimension": "structural_complexity",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.2166260104868095,
+      "effect_size_interpretation": "medium",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 2.526186060186941,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0466168346709255,
+        "smell_CDTNE": 1.075127240281316,
+        "smell_DCA": 1.0354367866583623,
+        "smell_IPA": 1.0828738677437146,
+        "smell_MMA": 1.0478632734480364,
+        "smell_MAP": 1.0073517308188302,
+        "smell_UI": 1.0166604128604202,
+        "smell_GNC": 1.0544216602508734,
+        "smell_MNF": 1.016811333613623,
+        "smell_PC": 1.0633512148541286,
+        "baseline_score": 2.526186060186941,
+        "total_churn": 1.8400271861451463,
+        "commit_count": 1.640631956903048,
+        "bug_fix_ratio": 1.061389327917006,
+        "lines_added": 1.0284198288660122,
+        "lines_deleted": 1.0407328921460854,
+        "is_feature_commit": 1.015502652499135,
+        "is_bug_fix": 1.0392225790033336,
+        "log_loc": 2.4267408407053064
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.5130403388432556,
+      "shapiro_p_value": 2.5331198711126674e-67,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9574200858850885,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.2",
+    "transition": "removal",
+    "dimension": "code_size",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.43367016551232807,
+      "effect_size_interpretation": "large",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.6734300365041639,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0393436729301124,
+        "smell_CDTNE": 1.0901314073932746,
+        "smell_DCA": 1.0335000203271585,
+        "smell_IPA": 1.0818496155702158,
+        "smell_MMA": 1.0491596119070354,
+        "smell_MAP": 1.0092058686875711,
+        "smell_UI": 1.0164512837083939,
+        "smell_GNC": 1.05457471717184,
+        "smell_MNF": 1.0169660567046215,
+        "smell_PC": 1.0695894830917019,
+        "baseline_score": 1.0743112891387574,
+        "total_churn": 1.6734300365041639,
+        "commit_count": 1.6356212712730582,
+        "bug_fix_ratio": 1.059675713076592,
+        "lines_added": 1.0293536630958962,
+        "lines_deleted": 1.0401293227857944,
+        "is_feature_commit": 1.01590460513772,
+        "is_bug_fix": 1.0387498395423087,
+        "log_loc": 1.4367142403551791
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.6787775903895856,
+      "shapiro_p_value": 1.7374807715685756e-59,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9081104757569174,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.3",
+    "transition": "removal",
+    "dimension": "defect_proneness",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.06681175076082162,
+      "effect_size_interpretation": "small",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.660336374278928,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0386367506224086,
+        "smell_CDTNE": 1.0696102215475165,
+        "smell_DCA": 1.0366278656792711,
+        "smell_IPA": 1.0783848177351145,
+        "smell_MMA": 1.055776432709189,
+        "smell_MAP": 1.007024738416859,
+        "smell_UI": 1.0211980664102067,
+        "smell_GNC": 1.066573262458109,
+        "smell_MNF": 1.0173457658773821,
+        "smell_PC": 1.0708145178782482,
+        "baseline_score": 1.0558193616592766,
+        "total_churn": 1.660336374278928,
+        "commit_count": 1.632801809157508,
+        "bug_fix_ratio": 1.0592180290545914,
+        "lines_added": 1.0285371191395478,
+        "lines_deleted": 1.0401301225062085,
+        "is_feature_commit": 1.0158838193375697,
+        "is_bug_fix": 1.0390681180179346,
+        "log_loc": 1.4256761927412664
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.6515640229300231,
+      "shapiro_p_value": 5.5899317779192326e-61,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.80388157543885,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.4",
+    "transition": "removal",
+    "dimension": "understandability",
+    "power_analysis": {
+      "power": 0.9999999999873731,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.04257409032729536,
+      "effect_size_interpretation": "small",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.66038379741271,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0435691519981611,
+        "smell_CDTNE": 1.1159214541079703,
+        "smell_DCA": 1.038065379697873,
+        "smell_IPA": 1.0811483539717346,
+        "smell_MMA": 1.04333854293624,
+        "smell_MAP": 1.0085120275621708,
+        "smell_UI": 1.0246909499184296,
+        "smell_GNC": 1.0578659194128468,
+        "smell_MNF": 1.0179632344122813,
+        "smell_PC": 1.0654775461935009,
+        "baseline_score": 1.1038318383749035,
+        "total_churn": 1.66038379741271,
+        "commit_count": 1.632520261073368,
+        "bug_fix_ratio": 1.0616095049749665,
+        "lines_added": 1.028801977080264,
+        "lines_deleted": 1.0407554746064833,
+        "is_feature_commit": 1.0196822681142381,
+        "is_bug_fix": 1.0387031633418498,
+        "log_loc": 1.4226049687552464
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.3736751723756958,
+      "shapiro_p_value": 2.637877736813727e-72,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.9886091043696528,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.5",
+    "transition": "removal",
+    "dimension": "testing_quality",
+    "power_analysis": {
+      "power": 0.9999999990795054,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.03735353006984149,
+      "effect_size_interpretation": "small",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  },
+  {
+    "multicollinearity": {
+      "max_vif": 1.66230566936763,
+      "problematic": "False",
+      "severe": "False",
+      "vif_values": {
+        "smell_CIDX": 1.0385880539326033,
+        "smell_CDTNE": 1.067166443499594,
+        "smell_DCA": 1.039101455018492,
+        "smell_IPA": 1.0779237224324658,
+        "smell_MMA": 1.0754473276554897,
+        "smell_MAP": 1.0178722479840356,
+        "smell_UI": 1.0164001346201752,
+        "smell_GNC": 1.0657858312642543,
+        "smell_MNF": 1.0309530138218372,
+        "smell_PC": 1.063417909117687,
+        "baseline_score": 1.134506689580436,
+        "total_churn": 1.66230566936763,
+        "commit_count": 1.625567579780943,
+        "bug_fix_ratio": 1.0635111040636454,
+        "lines_added": 1.0289069922534726,
+        "lines_deleted": 1.040752570963725,
+        "is_feature_commit": 1.0153785423360313,
+        "is_bug_fix": 1.0393267287848014,
+        "log_loc": 1.476608290343554
+      }
+    },
+    "normality": {
+      "shapiro_statistic": 0.7001478812085045,
+      "shapiro_p_value": 3.0801849814535365e-58,
+      "is_normal": "False"
+    },
+    "autocorrelation": {
+      "durbin_watson": 1.875322236033099,
+      "has_autocorrelation": "False"
+    },
+    "hypothesis_id": "H2.6",
+    "transition": "removal",
+    "dimension": "ml_specific",
+    "power_analysis": {
+      "power": 1.0,
+      "power_interpretation": "adequately powered",
+      "cohens_f_squared": 0.1369321045910869,
+      "effect_size_interpretation": "small",
+      "sample_size": 2937,
+      "predictors": 21,
+      "alpha": 0.05,
+      "recommended_interpretation": "Power >= 0.80 is conventionally considered adequate. Current power: 1.000"
+    }
+  }
+]

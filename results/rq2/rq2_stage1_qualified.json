@@ -1,0 +1,210 @@
+{
+  "qualified_smells": [
+    "Chain_Indexing",
+    "columns_and_datatype_not_explicitly_set",
+    "dataframe_conversion_api_misused",
+    "gradients_not_cleared_before_backward_propagation",
+    "in_place_apis_misused",
+    "unnecessary_iteration"
+  ],
+  "qualification_criteria": {
+    "min_samples": 30,
+    "fdr_alpha": 0.05,
+    "qualification_threshold": 0.1,
+    "qualification_uses_raw_p": true,
+    "description": "n >= 30 AND raw p < 0.1 (screening threshold)",
+    "justification": "Following established practice in exploratory staged designs (Palomba et al. 2018), raw p-values used for Stage 1 screening while maintaining FDR-corrected thresholds (alpha=0.05) for Stage 2/3 hypothesis testing."
+  },
+  "total_tested": 16,
+  "total_qualified": 6,
+  "smell_details": {
+    "Chain_Indexing_introduction": {
+      "smell_type": "Chain_Indexing",
+      "transition": "introduction",
+      "n_observations": 514,
+      "coefficient": 0.0011850641601728676,
+      "p_raw": 0.017877041137536853,
+      "p_adj": 0.07150816455014741,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "Chain_Indexing_removal": {
+      "smell_type": "Chain_Indexing",
+      "transition": "removal",
+      "n_observations": 303,
+      "coefficient": -0.004189896667462284,
+      "p_raw": 0.14670403903201112,
+      "p_adj": 0.2347264624512178,
+      "qualified": true,
+      "reason": "qualified via other transition"
+    },
+    "columns_and_datatype_not_explicitly_set_introduction": {
+      "smell_type": "columns_and_datatype_not_explicitly_set",
+      "transition": "introduction",
+      "n_observations": 3134,
+      "coefficient": 0.00045460134680792646,
+      "p_raw": 0.010095039530925387,
+      "p_adj": 0.07150816455014741,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "columns_and_datatype_not_explicitly_set_removal": {
+      "smell_type": "columns_and_datatype_not_explicitly_set",
+      "transition": "removal",
+      "n_observations": 1431,
+      "coefficient": -0.0008278212081496684,
+      "p_raw": 8.980652600176775e-05,
+      "p_adj": 0.001436904416028284,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "dataframe_conversion_api_misused_introduction": {
+      "smell_type": "dataframe_conversion_api_misused",
+      "transition": "introduction",
+      "n_observations": 436,
+      "coefficient": 0.001518914550373438,
+      "p_raw": 0.05942761453200296,
+      "p_adj": 0.1584736387520079,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "dataframe_conversion_api_misused_removal": {
+      "smell_type": "dataframe_conversion_api_misused",
+      "transition": "removal",
+      "n_observations": 250,
+      "coefficient": -0.002026115743019183,
+      "p_raw": 0.10704038576159935,
+      "p_adj": 0.1983946780310267,
+      "qualified": true,
+      "reason": "qualified via other transition"
+    },
+    "gradients_not_cleared_before_backward_propagation_introduction": {
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "transition": "introduction",
+      "n_observations": 407,
+      "coefficient": 0.004336649948170235,
+      "p_raw": 0.08531596264928498,
+      "p_adj": 0.1950079146269371,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "gradients_not_cleared_before_backward_propagation_removal": {
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "transition": "removal",
+      "n_observations": 186,
+      "coefficient": 0.002975773323441581,
+      "p_raw": 0.8250431529917213,
+      "p_adj": 0.8716077854423379,
+      "qualified": true,
+      "reason": "qualified via other transition"
+    },
+    "in_place_apis_misused_introduction": {
+      "smell_type": "in_place_apis_misused",
+      "transition": "introduction",
+      "n_observations": 1045,
+      "coefficient": -0.00029855736027830304,
+      "p_raw": 0.4143193758769306,
+      "p_adj": 0.5317807815482589,
+      "qualified": true,
+      "reason": "qualified via other transition"
+    },
+    "in_place_apis_misused_removal": {
+      "smell_type": "in_place_apis_misused",
+      "transition": "removal",
+      "n_observations": 512,
+      "coefficient": -0.0042880291386324645,
+      "p_raw": 0.014939545727320702,
+      "p_adj": 0.07150816455014741,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "matrix_multiplication_api_misused_introduction": {
+      "smell_type": "matrix_multiplication_api_misused",
+      "transition": "introduction",
+      "n_observations": 528,
+      "coefficient": 0.0006267520443487226,
+      "p_raw": 0.43207188500796034,
+      "p_adj": 0.5317807815482589,
+      "qualified": false,
+      "reason": "p_raw=0.4321 >= 0.1"
+    },
+    "matrix_multiplication_api_misused_removal": {
+      "smell_type": "matrix_multiplication_api_misused",
+      "transition": "removal",
+      "n_observations": 287,
+      "coefficient": -0.00046908714507065165,
+      "p_raw": 0.657346816401756,
+      "p_adj": 0.7512535044591496,
+      "qualified": false,
+      "reason": "p_raw=0.6573 >= 0.1"
+    },
+    "pytorch_call_method_misused_introduction": {
+      "smell_type": "pytorch_call_method_misused",
+      "transition": "introduction",
+      "n_observations": 603,
+      "coefficient": 0.0005330544935215988,
+      "p_raw": 0.20141842870023474,
+      "p_adj": 0.29297225992761416,
+      "qualified": false,
+      "reason": "p_raw=0.2014 >= 0.1"
+    },
+    "pytorch_call_method_misused_removal": {
+      "smell_type": "pytorch_call_method_misused",
+      "transition": "removal",
+      "n_observations": 340,
+      "coefficient": 0.002061070522165859,
+      "p_raw": 0.11159700639245251,
+      "p_adj": 0.1983946780310267,
+      "qualified": false,
+      "reason": "p_raw=0.1116 >= 0.1"
+    },
+    "unnecessary_iteration_introduction": {
+      "smell_type": "unnecessary_iteration",
+      "transition": "introduction",
+      "n_observations": 172,
+      "coefficient": 0.0005303241877294973,
+      "p_raw": 0.8716077854423379,
+      "p_adj": 0.8716077854423379,
+      "qualified": true,
+      "reason": "qualified via other transition"
+    },
+    "unnecessary_iteration_removal": {
+      "smell_type": "unnecessary_iteration",
+      "transition": "removal",
+      "n_observations": 104,
+      "coefficient": -0.036841239240657436,
+      "p_raw": 0.039887848385569136,
+      "p_adj": 0.12764111483382123,
+      "qualified": true,
+      "reason": "qualified (p_raw < threshold)"
+    },
+    "memory_not_freed_introduction": {
+      "smell_type": "memory_not_freed",
+      "transition": "introduction",
+      "n_events": 15,
+      "qualified": false,
+      "reason": "insufficient_samples (n=15 < 30)"
+    },
+    "memory_not_freed_removal": {
+      "smell_type": "memory_not_freed",
+      "transition": "removal",
+      "n_events": 13,
+      "qualified": false,
+      "reason": "insufficient_samples (n=13 < 30)"
+    },
+    "merge_api_parameter_not_explicitly_set_introduction": {
+      "smell_type": "merge_api_parameter_not_explicitly_set",
+      "transition": "introduction",
+      "n_events": 27,
+      "qualified": false,
+      "reason": "insufficient_samples (n=27 < 30)"
+    },
+    "merge_api_parameter_not_explicitly_set_removal": {
+      "smell_type": "merge_api_parameter_not_explicitly_set",
+      "transition": "removal",
+      "n_events": 16,
+      "qualified": false,
+      "reason": "insufficient_samples (n=16 < 30)"
+    }
+  }
+}

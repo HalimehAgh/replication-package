@@ -1,0 +1,11 @@
+smell_type,introduction,removal,total
+columns_and_datatype_not_explicitly_set,3134,1431,4565
+in_place_apis_misused,1045,512,1557
+pytorch_call_method_misused,603,340,943
+Chain_Indexing,514,303,817
+matrix_multiplication_api_misused,528,287,815
+dataframe_conversion_api_misused,436,250,686
+gradients_not_cleared_before_backward_propagation,407,186,593
+unnecessary_iteration,172,104,276
+merge_api_parameter_not_explicitly_set,27,16,43
+memory_not_freed,15,13,28

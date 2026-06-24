@@ -1,0 +1,41 @@
+{
+  "stage1": {
+    "tests_run": 16,
+    "tests_skipped": 4,
+    "significant_results": 1,
+    "fdr_alpha": 0.05,
+    "qualification_threshold": 0.1,
+    "min_samples": 30,
+    "qualified_smells": [
+      "Chain_Indexing",
+      "columns_and_datatype_not_explicitly_set",
+      "dataframe_conversion_api_misused",
+      "gradients_not_cleared_before_backward_propagation",
+      "in_place_apis_misused",
+      "unnecessary_iteration"
+    ],
+    "qualified_for_stage2": 6
+  },
+  "stage2": {
+    "tests_run": 72,
+    "tests_skipped": 0,
+    "significant_results": 4,
+    "alpha": 0.05,
+    "unique_smells_tested": 6
+  },
+  "stage3": {
+    "pairs_tested": 3,
+    "symmetric": 3,
+    "hysteresis": 0,
+    "overcorrection": 0,
+    "unidirectional": 0,
+    "alpha": 0.05,
+    "rho_used": 0.22498227373931068,
+    "rho_source": "empirical_from_rq1"
+  },
+  "overall": {
+    "total_tests": 88,
+    "total_significant": 5,
+    "tests_with_assumption_warnings": 12
+  }
+}

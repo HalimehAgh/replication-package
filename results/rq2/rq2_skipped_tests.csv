@@ -1,0 +1,5 @@
+stage,hypothesis_id,smell_type,transition,dimension,n_events,reason
+1,H2.1.MNF.intro,memory_not_freed,introduction,aggregate,15,insufficient_samples (n=15 < 30)
+1,H2.1.MNF.removal,memory_not_freed,removal,aggregate,13,insufficient_samples (n=13 < 30)
+1,H2.1.MAP.intro,merge_api_parameter_not_explicitly_set,introduction,aggregate,27,insufficient_samples (n=27 < 30)
+1,H2.1.MAP.removal,merge_api_parameter_not_explicitly_set,removal,aggregate,16,insufficient_samples (n=16 < 30)

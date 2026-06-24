@@ -1,0 +1,101 @@
+{
+  "total_tests_with_warnings": 12,
+  "warnings": [
+    {
+      "hypothesis_id": "H2.1.GNC.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage1",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.1.MMA.removal",
+      "smell_type": "matrix_multiplication_api_misused",
+      "stage": "stage1",
+      "warnings": [
+        "Potential multicollinearity (VIF > 5)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.DCA.TQ.removal",
+      "smell_type": "dataframe_conversion_api_misused",
+      "stage": "stage2",
+      "warnings": [
+        "Autocorrelation detected"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.SC.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.CS.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.DP.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.UND.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.TQ.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.GNC.ML.intro",
+      "smell_type": "gradients_not_cleared_before_backward_propagation",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.UI.UND.intro",
+      "smell_type": "unnecessary_iteration",
+      "stage": "stage2",
+      "warnings": [
+        "Autocorrelation detected"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.UI.SC.removal",
+      "smell_type": "unnecessary_iteration",
+      "stage": "stage2",
+      "warnings": [
+        "Potential multicollinearity (VIF > 5)"
+      ]
+    },
+    {
+      "hypothesis_id": "H2.2.UI.CS.removal",
+      "smell_type": "unnecessary_iteration",
+      "stage": "stage2",
+      "warnings": [
+        "SEVERE multicollinearity (VIF > 10)"
+      ]
+    }
+  ]
+}

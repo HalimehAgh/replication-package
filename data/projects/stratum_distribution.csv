@@ -1,0 +1,22 @@
+domain,size,target_count,actual_count,deviation_pct,within_tolerance
+ML Frameworks / Libraries,small,26,26,0.0,True
+ML Frameworks / Libraries,medium,30,25,-16.7,True
+ML Frameworks / Libraries,large,39,21,-46.2,False
+Natural Language Processing,small,14,14,0.0,True
+Natural Language Processing,medium,8,7,-12.5,True
+Natural Language Processing,large,17,15,-11.8,True
+Computer Vision,small,10,10,0.0,True
+Computer Vision,medium,15,14,-6.7,True
+Computer Vision,large,12,10,-16.7,True
+Domain-Specific Applications,small,15,14,-6.7,True
+Domain-Specific Applications,medium,8,8,0.0,True
+Domain-Specific Applications,large,10,9,-10.0,True
+Data Science / Traditional ML,small,10,10,0.0,True
+Data Science / Traditional ML,medium,7,7,0.0,True
+Data Science / Traditional ML,large,10,7,-30.0,False
+MLOps / Deployment,small,3,1,-66.7,False
+MLOps / Deployment,medium,7,6,-14.3,True
+MLOps / Deployment,large,16,9,-43.8,False
+Reinforcement Learning,small,4,3,-25.0,False
+Reinforcement Learning,medium,10,9,-10.0,True
+Reinforcement Learning,large,8,6,-25.0,False

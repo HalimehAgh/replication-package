@@ -1,0 +1,232 @@
+project_id,domain,size_category,organization,total_events,total_introductions,total_removals,smell_breadth,stars
+keras-team/autokeras,ML Frameworks / Libraries,small,keras-team,185,132,53,6,9269
+bethgelab/foolbox,ML Frameworks / Libraries,small,bethgelab,160,122,38,3,2903
+masa-su/pixyz,ML Frameworks / Libraries,small,masa-su,67,47,20,1,499
+henrysky/astroNN,ML Frameworks / Libraries,small,henrysky,55,37,18,6,204
+mozilla/DeepSpeech,ML Frameworks / Libraries,small,mozilla,51,37,14,3,26614
+zalandoresearch/pytorch-ts,ML Frameworks / Libraries,small,zalandoresearch,35,31,4,7,1333
+bayesiains/nflows,ML Frameworks / Libraries,small,bayesiains,34,34,0,3,958
+robertness/causalML,ML Frameworks / Libraries,small,robertness,14,14,0,5,782
+tensorflow/fairness-indicators,ML Frameworks / Libraries,small,tensorflow,13,11,2,3,353
+google-research/text-to-text-transfer-transformer,ML Frameworks / Libraries,small,google-research,12,11,1,5,6425
+deezer/spleeter,ML Frameworks / Libraries,small,deezer,11,8,3,3,27410
+joeynmt/joeynmt,ML Frameworks / Libraries,small,joeynmt,10,8,2,4,702
+zeusees/HyperLPR,ML Frameworks / Libraries,small,zeusees,10,10,0,2,5991
+Tiiiger/QPyTorch,ML Frameworks / Libraries,small,Tiiiger,9,9,0,2,285
+arogozhnikov/einops,ML Frameworks / Libraries,small,arogozhnikov,8,7,1,1,9199
+lsds/KungFu,ML Frameworks / Libraries,small,lsds,6,6,0,2,298
+geoopt/geoopt,ML Frameworks / Libraries,small,geoopt,4,4,0,1,987
+greentfrapp/lucent,ML Frameworks / Libraries,small,greentfrapp,4,2,2,1,643
+philipperemy/keract,ML Frameworks / Libraries,small,philipperemy,3,3,0,2,1053
+timesler/facenet-pytorch,ML Frameworks / Libraries,small,timesler,3,2,1,1,4993
+snipsco/tract,ML Frameworks / Libraries,small,snipsco,3,3,0,1,2601
+microsoft/Windows-Machine-Learning,ML Frameworks / Libraries,small,microsoft,3,3,0,1,1097
+philipperemy/keras-tcn,ML Frameworks / Libraries,small,philipperemy,2,2,0,2,1971
+tensorflow/serving,ML Frameworks / Libraries,small,tensorflow,2,2,0,1,6325
+rusty1s/pytorch_scatter,ML Frameworks / Libraries,small,rusty1s,0,0,0,0,1690
+pytorch/builder,ML Frameworks / Libraries,small,pytorch,0,0,0,0,354
+limbo018/DREAMPlace,ML Frameworks / Libraries,medium,limbo018,135,95,40,2,866
+cornellius-gp/gpytorch,ML Frameworks / Libraries,medium,cornellius-gp,120,83,37,2,3777
+DSE-MSU/DeepRobust,ML Frameworks / Libraries,medium,DSE-MSU,119,107,12,4,1059
+vanvalenlab/deepcell-tf,ML Frameworks / Libraries,medium,vanvalenlab,108,74,34,7,465
+onnx/onnxmltools,ML Frameworks / Libraries,medium,onnx,101,86,15,5,1113
+microsoft/hummingbird,ML Frameworks / Libraries,medium,microsoft,95,86,9,7,3481
+autorope/donkeycar,ML Frameworks / Libraries,medium,autorope,89,59,30,7,3314
+skorch-dev/skorch,ML Frameworks / Libraries,medium,skorch-dev,74,54,20,7,6113
+sql-machine-learning/elasticdl,ML Frameworks / Libraries,medium,sql-machine-learning,71,51,20,5,743
+mpariente/asteroid,ML Frameworks / Libraries,medium,mpariente,60,56,4,7,2462
+keras-team/keras-tuner,ML Frameworks / Libraries,medium,keras-team,57,52,5,3,2903
+pytorch/tutorials,ML Frameworks / Libraries,medium,pytorch,55,47,8,6,8811
+lab-ml/labml,ML Frameworks / Libraries,medium,lab-ml,41,36,5,4,2232
+cornell-zhang/heterocl,ML Frameworks / Libraries,medium,cornell-zhang,40,40,0,5,341
+tf-encrypted/tf-encrypted,ML Frameworks / Libraries,medium,tf-encrypted,38,37,1,2,1235
+norse/norse,ML Frameworks / Libraries,medium,norse,29,21,8,3,759
+SPFlow/SPFlow,ML Frameworks / Libraries,medium,SPFlow,28,24,4,3,304
+GRAAL-Research/poutyne,ML Frameworks / Libraries,medium,GRAAL-Research,28,18,10,2,576
+deepmind/sonnet,ML Frameworks / Libraries,medium,deepmind,26,26,0,2,9884
+danielegrattarola/spektral,ML Frameworks / Libraries,medium,danielegrattarola,19,16,3,3,2384
+f-dangel/backpack,ML Frameworks / Libraries,medium,f-dangel,18,15,3,4,592
+google/qkeras,ML Frameworks / Libraries,medium,google,5,5,0,1,571
+google-research/tensor2robot,ML Frameworks / Libraries,medium,google-research,3,2,1,2,560
+fastai/fastai,ML Frameworks / Libraries,medium,fastai,1,1,0,1,27456
+deepmind/dm-haiku,ML Frameworks / Libraries,medium,deepmind,1,1,0,1,3100
+ROCmSoftwarePlatform/tensorflow-upstream,ML Frameworks / Libraries,large,ROCmSoftwarePlatform,1322,1043,279,8,696
+OpenMined/PySyft,ML Frameworks / Libraries,large,OpenMined,403,323,80,11,9783
+geomstats/geomstats,ML Frameworks / Libraries,large,geomstats,328,205,123,6,1405
+rusty1s/pytorch_geometric,ML Frameworks / Libraries,large,rusty1s,305,260,45,10,22939
+PyTorchLightning/pytorch-lightning,ML Frameworks / Libraries,large,PyTorchLightning,286,231,55,5,30179
+quantumlib/Cirq,ML Frameworks / Libraries,large,quantumlib,224,194,30,6,4712
+onnx/tensorflow-onnx,ML Frameworks / Libraries,large,onnx,205,201,4,2,2480
+XanaduAI/pennylane,ML Frameworks / Libraries,large,XanaduAI,137,106,31,4,2824
+pyro-ppl/pyro,ML Frameworks / Libraries,large,pyro-ppl,129,105,24,6,8867
+opencv/open_model_zoo,ML Frameworks / Libraries,large,opencv,124,95,29,6,4297
+Xilinx/brevitas,ML Frameworks / Libraries,large,Xilinx,121,105,16,7,1388
+XanaduAI/strawberryfields,ML Frameworks / Libraries,large,XanaduAI,95,75,20,1,817
+freewym/espresso,ML Frameworks / Libraries,large,freewym,73,61,12,4,942
+mlperf/inference,ML Frameworks / Libraries,large,mlperf,65,63,2,9,1467
+google/flax,ML Frameworks / Libraries,large,google,54,39,15,4,6820
+mlperf/training,ML Frameworks / Libraries,large,mlperf,28,25,3,5,1715
+NVIDIA/TRTorch,ML Frameworks / Libraries,large,NVIDIA,26,22,4,5,2865
+NVIDIAGameWorks/kaolin,ML Frameworks / Libraries,large,NVIDIAGameWorks,25,25,0,3,4911
+aiqm/torchani,ML Frameworks / Libraries,large,aiqm,24,22,2,4,516
+facebookresearch/mmf,ML Frameworks / Libraries,large,facebookresearch,12,11,1,3,5592
+rwth-i6/returnn,ML Frameworks / Libraries,large,rwth-i6,12,10,2,3,370
+MAIF/melusine,Natural Language Processing,small,MAIF,81,70,11,6,360
+kaushaltrivedi/fast-bert,Natural Language Processing,small,kaushaltrivedi,58,46,12,5,1905
+stephenhky/PyShortTextCategorization,Natural Language Processing,small,stephenhky,46,34,12,2,472
+interpretml/interpret-text,Natural Language Processing,small,interpretml,44,43,1,9,426
+graphbrain/graphbrain,Natural Language Processing,small,graphbrain,30,24,6,5,618
+thunlp/OpenNRE,Natural Language Processing,small,thunlp,29,25,4,2,4429
+alfredfrancis/ai-chatbot-framework,Natural Language Processing,small,alfredfrancis,23,17,6,1,2125
+dwadden/dygiepp,Natural Language Processing,small,dwadden,19,17,2,4,587
+wikipedia2vec/wikipedia2vec,Natural Language Processing,small,wikipedia2vec,7,6,1,2,956
+jessevig/bertviz,Natural Language Processing,small,jessevig,2,2,0,1,7652
+explosion/prodigy-recipes,Natural Language Processing,small,explosion,1,1,0,1,502
+guillaume-be/rust-bert,Natural Language Processing,small,guillaume-be,0,0,0,0,2951
+explosion/spacy-transformers,Natural Language Processing,small,explosion,0,0,0,0,1394
+bitextor/bitextor,Natural Language Processing,small,bitextor,0,0,0,0,295
+CornellNLP/Cornell-Conversational-Analysis-Toolkit,Natural Language Processing,medium,CornellNLP,199,138,61,6,603
+OpenNMT/OpenNMT-py,Natural Language Processing,medium,OpenNMT,94,58,36,5,6941
+amaiya/ktrain,Natural Language Processing,medium,amaiya,53,44,9,5,1261
+deepmipt/DeepPavlov,Natural Language Processing,medium,deepmipt,42,31,11,5,6934
+QData/TextAttack,Natural Language Processing,medium,QData,18,17,1,3,3277
+kermitt2/delft,Natural Language Processing,medium,kermitt2,16,14,2,1,404
+namisan/mt-dnn,Natural Language Processing,medium,namisan,5,4,1,2,2255
+ray-project/ray,Natural Language Processing,large,ray-project,2603,2093,510,13,39131
+NVIDIA/NeMo,Natural Language Processing,large,NVIDIA,576,501,75,10,15770
+uber/ludwig,Natural Language Processing,large,uber,573,435,138,11,11590
+huggingface/transformers,Natural Language Processing,large,huggingface,568,457,111,13,150377
+jrzaurin/pytorch-widedeep,Natural Language Processing,large,jrzaurin,302,247,55,9,1377
+flairNLP/flair,Natural Language Processing,large,flairNLP,142,91,51,2,14297
+PaddlePaddle/models,Natural Language Processing,large,PaddlePaddle,140,127,13,8,6934
+huseinzol05/Malaya,Natural Language Processing,large,huseinzol05,119,90,29,9,506
+openvinotoolkit/openvino,Natural Language Processing,large,openvinotoolkit,44,39,5,6,8910
+UKPLab/sentence-transformers,Natural Language Processing,large,UKPLab,39,29,10,4,17603
+stanfordnlp/stanza,Natural Language Processing,large,stanfordnlp,27,22,5,2,7607
+x4nth055/pythoncode-tutorials,Natural Language Processing,large,x4nth055,21,20,1,4,2913
+mozilla/bugbug,Natural Language Processing,large,mozilla,14,12,2,4,547
+CLUEbenchmark/CLUE,Natural Language Processing,large,CLUEbenchmark,13,8,5,4,4188
+snorkel-team/snorkel,Computer Vision,small,snorkel-team,106,94,12,8,5918
+junyanz/pytorch-CycleGAN-and-pix2pix,Computer Vision,small,junyanz,31,23,8,1,24516
+geyang/ml_logger,Computer Vision,small,geyang,24,23,1,4,200
+gjy3035/C-3-Framework,Computer Vision,small,gjy3035,19,19,0,3,723
+MIPT-Oulu/solt,Computer Vision,small,MIPT-Oulu,19,14,5,1,265
+mlmed/torchxrayvision,Computer Vision,small,mlmed,14,9,5,4,1062
+zhanghang1989/PyTorch-Encoding,Computer Vision,small,zhanghang1989,9,8,1,2,2051
+deepmedic/deepmedic,Computer Vision,small,deepmedic,7,7,0,3,1059
+idealo/image-super-resolution,Computer Vision,small,idealo,0,0,0,0,4789
+Belval/TextRecognitionDataGenerator,Computer Vision,small,Belval,0,0,0,0,3571
+IBM/AIF360,Computer Vision,medium,IBM,178,160,18,8,2657
+DigitalSlideArchive/HistomicsTK,Computer Vision,medium,DigitalSlideArchive,124,106,18,6,446
+flatironinstitute/CaImAn,Computer Vision,medium,flatironinstitute,115,79,36,5,688
+KevinMusgrave/pytorch-metric-learning,Computer Vision,medium,KevinMusgrave,72,64,8,2,6232
+ultralytics/yolov5,Computer Vision,medium,ultralytics,70,51,19,7,55509
+mittagessen/kraken,Computer Vision,medium,mittagessen,68,38,30,4,888
+ria-com/nomeroff-net,Computer Vision,medium,ria-com,46,33,13,5,486
+l3p-cv/lost,Computer Vision,medium,l3p-cv,39,29,10,5,572
+ultralytics/yolov3,Computer Vision,medium,ultralytics,38,34,4,7,10457
+fepegar/torchio,Computer Vision,medium,fepegar,30,20,10,3,2273
+MIC-DKFZ/nnUNet,Computer Vision,medium,MIC-DKFZ,14,13,1,4,7341
+jantic/DeOldify,Computer Vision,medium,jantic,11,9,2,5,18416
+BloodAxe/pytorch-toolbelt,Computer Vision,medium,BloodAxe,9,7,2,4,1556
+Calamari-OCR/calamari,Computer Vision,medium,Calamari-OCR,1,1,0,1,1166
+Project-MONAI/MONAI,Computer Vision,large,Project-MONAI,261,234,27,4,6865
+open-mmlab/mmdetection,Computer Vision,large,open-mmlab,235,197,38,5,31732
+opencv/openvino_training_extensions,Computer Vision,large,opencv,216,195,21,6,1203
+spmallick/learnopencv,Computer Vision,large,spmallick,121,118,3,10,22329
+open-mmlab/mmcv,Computer Vision,large,open-mmlab,49,46,3,4,6271
+rwightman/pytorch-image-models,Computer Vision,large,rwightman,46,39,7,6,35368
+kornia/kornia,Computer Vision,large,kornia,37,34,3,3,10774
+facebookresearch/habitat-api,Computer Vision,large,facebookresearch,32,27,5,4,2581
+deepfakes/faceswap,Computer Vision,large,deepfakes,22,19,3,3,54523
+heartexlabs/label-studio,Computer Vision,large,heartexlabs,16,12,4,5,24894
+kipoi/kipoi,Domain-Specific Applications,small,kipoi,217,160,57,7,238
+interpretml/DiCE,Domain-Specific Applications,small,interpretml,158,110,48,7,1446
+jaakkopasanen/AutoEq,Domain-Specific Applications,small,jaakkopasanen,84,65,19,5,14749
+MITK/MITK,Domain-Specific Applications,small,MITK,29,26,3,4,776
+ARM-software/CMSIS_5,Domain-Specific Applications,small,ARM-software,28,23,5,5,1522
+tslearn-team/tslearn,Domain-Specific Applications,small,tslearn-team,24,21,3,7,3037
+NLeSC/mcfly,Domain-Specific Applications,small,NLeSC,21,15,6,4,365
+hastagAB/Awesome-Python-Scripts,Domain-Specific Applications,small,hastagAB,3,3,0,2,2263
+sisl/NeuralVerification.jl,Domain-Specific Applications,small,sisl,1,1,0,1,232
+magenta/ddsp,Domain-Specific Applications,small,magenta,0,0,0,0,3115
+RussTedrake/underactuated,Domain-Specific Applications,small,RussTedrake,0,0,0,0,870
+kakao/buffalo,Domain-Specific Applications,small,kakao,0,0,0,0,578
+GoogleCloudPlatform/healthcare,Domain-Specific Applications,small,GoogleCloudPlatform,0,0,0,0,386
+MarkUsProject/Markus,Domain-Specific Applications,small,MarkUsProject,0,0,0,0,267
+IBM/AIX360,Domain-Specific Applications,medium,IBM,199,194,5,8,1735
+snap-stanford/ogb,Domain-Specific Applications,medium,snap-stanford,118,108,10,3,2036
+nussl/nussl,Domain-Specific Applications,medium,nussl,94,76,18,5,640
+brainiak/brainiak,Domain-Specific Applications,medium,brainiak,61,57,4,3,358
+SeldonIO/alibi,Domain-Specific Applications,medium,SeldonIO,59,56,3,7,2558
+SeldonIO/alibi-detect,Domain-Specific Applications,medium,SeldonIO,47,43,4,7,2429
+nutonomy/nuscenes-devkit,Domain-Specific Applications,medium,nutonomy,40,36,4,3,2566
+nanoporetech/medaka,Domain-Specific Applications,medium,nanoporetech,27,17,10,5,482
+YosefLab/scVI,Domain-Specific Applications,large,YosefLab,642,496,146,9,1460
+dmlc/dgl,Domain-Specific Applications,large,dmlc,269,241,28,11,14080
+calico/basenji,Domain-Specific Applications,large,calico,246,200,46,9,452
+commaai/openpilot,Domain-Specific Applications,large,commaai,64,46,18,2,56169
+TheAlgorithms/Python,Domain-Specific Applications,large,TheAlgorithms,52,46,6,5,209443
+magenta/magenta,Domain-Specific Applications,large,magenta,22,15,7,4,19667
+home-assistant/core,Domain-Specific Applications,large,home-assistant,0,0,0,0,81605
+galaxyproject/galaxy,Domain-Specific Applications,large,galaxyproject,0,0,0,0,1612
+avrae/avrae,Domain-Specific Applications,large,avrae,0,0,0,0,439
+EpistasisLab/tpot,Data Science / Traditional ML,small,EpistasisLab,76,65,11,5,9987
+ethen8181/machine-learning,Data Science / Traditional ML,small,ethen8181,53,47,6,9,3415
+jeongyoonlee/Kaggler,Data Science / Traditional ML,small,jeongyoonlee,38,35,3,3,752
+arogozhnikov/hep_ml,Data Science / Traditional ML,small,arogozhnikov,34,27,7,5,192
+FunctionLab/selene,Data Science / Traditional ML,small,FunctionLab,27,21,6,4,386
+GoogleCloudPlatform/ml-on-gcp,Data Science / Traditional ML,small,GoogleCloudPlatform,21,21,0,5,506
+wandb/examples,Data Science / Traditional ML,small,wandb,11,11,0,3,1181
+michaelhush/M-LOOP,Data Science / Traditional ML,small,michaelhush,10,10,0,1,167
+beringresearch/ivis,Data Science / Traditional ML,small,beringresearch,9,6,3,3,338
+sigopt/sigopt-examples,Data Science / Traditional ML,small,sigopt,7,7,0,4,201
+mljar/mljar-supervised,Data Science / Traditional ML,medium,mljar,569,450,119,7,3205
+koaning/scikit-lego,Data Science / Traditional ML,medium,koaning,440,325,115,5,1360
+slundberg/shap,Data Science / Traditional ML,medium,slundberg,426,317,109,9,24462
+analyticalmindsltd/smote_variants,Data Science / Traditional ML,medium,analyticalmindsltd,257,208,49,7,673
+uber/causalml,Data Science / Traditional ML,medium,uber,241,201,40,9,5589
+scikit-learn-contrib/imbalanced-learn,Data Science / Traditional ML,medium,scikit-learn-contrib,151,117,34,6,7038
+yzhao062/pyod,Data Science / Traditional ML,medium,yzhao062,96,68,28,7,9471
+streamlit/streamlit,Data Science / Traditional ML,large,streamlit,900,700,200,7,41585
+deepchem/deepchem,Data Science / Traditional ML,large,deepchem,561,366,195,9,6227
+pgmpy/pgmpy,Data Science / Traditional ML,large,pgmpy,455,366,89,8,3051
+creme-ml/creme,Data Science / Traditional ML,large,creme-ml,420,326,94,7,5558
+vaexio/vaex,Data Science / Traditional ML,large,vaexio,231,172,59,6,8432
+arviz-devs/arviz,Data Science / Traditional ML,large,arviz-devs,149,109,40,6,1729
+kubeflow-kale/kale,MLOps / Deployment,small,kubeflow-kale,12,8,4,3,640
+quantumblacklabs/kedro,MLOps / Deployment,medium,quantumblacklabs,259,212,47,5,10549
+kubeflow/examples,MLOps / Deployment,medium,kubeflow,33,32,1,6,1447
+vespa-engine/sample-apps,MLOps / Deployment,medium,vespa-engine,28,27,1,6,380
+kubeflow/katib,MLOps / Deployment,medium,kubeflow,11,11,0,3,1628
+apache/submarine,MLOps / Deployment,medium,apache,5,5,0,2,706
+openvinotoolkit/model_server,MLOps / Deployment,medium,openvinotoolkit,0,0,0,0,769
+mlflow/mlflow,MLOps / Deployment,large,mlflow,1723,1411,312,10,22264
+data-science-on-aws/workshop,MLOps / Deployment,large,data-science-on-aws,836,586,250,11,3409
+feast-dev/feast,MLOps / Deployment,large,feast-dev,802,647,155,7,6357
+FederatedAI/FATE,MLOps / Deployment,large,FederatedAI,446,368,78,10,5973
+apache/beam,MLOps / Deployment,large,apache,385,346,39,8,8304
+VertaAI/modeldb,MLOps / Deployment,large,VertaAI,125,98,27,3,1740
+allegroai/trains,MLOps / Deployment,large,allegroai,75,64,11,8,6293
+determined-ai/determined,MLOps / Deployment,large,determined-ai,54,49,5,5,3190
+guildai/guildai,MLOps / Deployment,large,guildai,36,31,5,7,889
+cgre-aachen/gempy,Reinforcement Learning,small,cgre-aachen,825,550,275,8,1158
+eleurent/rl-agents,Reinforcement Learning,small,eleurent,51,37,14,6,683
+kermitt2/grobid,Reinforcement Learning,small,kermitt2,0,0,0,0,4335
+vwxyzjn/cleanrl,Reinforcement Learning,medium,vwxyzjn,209,188,21,4,7945
+DLR-RM/stable-baselines3,Reinforcement Learning,medium,DLR-RM,60,43,17,3,11626
+pyannote/pyannote-audio,Reinforcement Learning,medium,pyannote,51,30,21,4,8363
+PacktPublishing/Deep-Reinforcement-Learning-Hands-On,Reinforcement Learning,medium,PacktPublishing,18,17,1,3,3027
+BindsNET/bindsnet,Reinforcement Learning,medium,BindsNET,17,12,5,6,1625
+learnables/cherry,Reinforcement Learning,medium,learnables,7,7,0,1,199
+datamllab/rlcard,Reinforcement Learning,medium,datamllab,3,3,0,2,3249
+cpnota/autonomous-learning-library,Reinforcement Learning,medium,cpnota,2,2,0,1,652
+evilsocket/pwnagotchi,Reinforcement Learning,medium,evilsocket,0,0,0,0,8621
+awslabs/amazon-sagemaker-examples,Reinforcement Learning,large,awslabs,344,340,4,10,10746
+wandb/client,Reinforcement Learning,large,wandb,322,269,53,8,10367
+bulletphysics/bullet3,Reinforcement Learning,large,bulletphysics,72,72,0,2,13791
+thu-ml/tianshou,Reinforcement Learning,large,thu-ml,48,30,18,4,8802
+PaddlePaddle/PARL,Reinforcement Learning,large,PaddlePaddle,40,36,4,2,3410
+Unity-Technologies/ml-agents,Reinforcement Learning,large,Unity-Technologies,22,13,9,3,18685
+mindsdb/mindsdb,Natural Language Processing,large,mindsdb,2675,1899,776,9,36195
+pymc-devs/pymc3,Data Science / Traditional ML,large,pymc-devs,3617,3017,600,7,9265

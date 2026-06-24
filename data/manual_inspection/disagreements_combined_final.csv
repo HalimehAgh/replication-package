@@ -1,0 +1,113 @@
+commit_hash,smell_type,dimension,column,supervisor_H,student_V,agreed_value,resolution_note
+9844e657,matrix_multiplication_api_misused,structural_complexity,type_hints,No,Yes,No,"The type hints are in the doc strings, not for  the new functions"
+19367c9c,pytorch_call_method_misused,structural_complexity,confound_type,feature_addition,architectural_rewrite,feature_addition,"although we have both feature_addition and architectural_rewrite, The dominant driver of the metric change is the new methods and nested loops from new functionality (frame stacking, local transformer)."
+8e9401fb,in_place_apis_misused,code_size,method_extraction,No,Yes,No,"
+By our definition, method extraction requires existing code to be relocated into a new function. This is a new standalone method with new code. "
+8e9401fb,in_place_apis_misused,code_size,documentation,No,Yes,No,Reformatting existing docstrings is not new documentation.
+8e9401fb,in_place_apis_misused,code_size,defensive_checks,Yes,No,Yes,The method performs input validation — checking a precondition before sampling proceeds — which is exactly what defensive_checks captures.
+9844e657,matrix_multiplication_api_misused,code_size,type_hints,No,Yes,No,"The type hints are in the doc strings, not for  the new functions"
+19367c9c,pytorch_call_method_misused,code_size,confound_type,feature_addition,architectural_rewrite,feature_addition,same as row 2
+8e9401fb,Chain_Indexing,code_size,method_extraction,No,Yes,No,same as row 3
+8e9401fb,Chain_Indexing,code_size,documentation,No,Yes,No,same as row 4
+8e9401fb,Chain_Indexing,code_size,defensive_checks,Yes,No,Yes,same as row 5
+8dcfaea0,gradients_not_cleared_before_backward_propagation,code_size,defensive_checks,No,Yes,Yes, if last_checkpoint is None and len(os.listdir(...)) > 0: raise ValueError(...) is a new explicit precondition check added in this commit
+99902995,unnecessary_iteration,code_size,error_handling,No,Yes,No,No explicit try/except or raise statements were added in this commit. Implicit library error handling does not count. 
+b86d1b33,columns_and_datatype_not_explicitly_set,defect_proneness,documentation,No,Yes,No,"Commented-out code is not documentation by our definition. A docstring must be a string literal after a def/class, and inline comments must be purposeful # explanations — not commented-out code."
+fbab4d4d,in_place_apis_misused,defect_proneness,refactored_nearby,No,Yes,No,"When the entire host code is deleted, refactored_nearby is not applicable. Changes to label_encoder() in the same file are not in the same function/class as the smell."
+f658b6f0,pytorch_call_method_misused,defect_proneness,type_hints,Yes,No,Yes,New classes with type hints were added to this file in this commit. That satisfies the definition.
+f658b6f0,pytorch_call_method_misused,defect_proneness,confound_type,architectural_rewrite,feature_addition,feature_addition,"although we have both categories in this commit, the two new model classes with SDE-based diffusion and score matching loss are genuinely new end-user functionality. The relocation is secondary."
+0ebe6c28,Chain_Indexing,defect_proneness,confound_type,architectural_rewrite,feature_addition,architectural_rewrite,"The new static methods are infrastructure helpers for the existing plotting, not new end-user features. The consolidation of plt.savefig()/plt.close() is the dominant change."
+35b6642e,gradients_not_cleared_before_backward_propagation,defect_proneness,refactored_nearby,No,Yes,No,Commenting out is circumvention by deactivation — not refactoring nearby.
+fbab4d4d,dataframe_conversion_api_misused,defect_proneness,refactored_nearby,No,Yes,No,same as row 14
+d9492a90,matrix_multiplication_api_misused,defect_proneness,method_extraction,No,Yes,No,The extraction crossed a file boundary — it is better captured as other_changes (circumvention by extraction). Within-file method extraction is what this column tracks
+d9492a90,matrix_multiplication_api_misused,defect_proneness,error_handling,Yes,No,Yes,"Our definition says ""new raise statements added"" — and they were. The removal of the old try/except in the deleted function is captured in other_changes. Net effect on the file's error handling is captured in the explanation, not in this binary column. "
+d9492a90,matrix_multiplication_api_misused,defect_proneness,type_hints,Yes,No,Yes,One new annotated parameter added to an existing signature counts.
+d9492a90,matrix_multiplication_api_misused,defect_proneness,documentation,No,Yes,No,"There is no new docstring, it is only a ""TO-Do"""
+d9492a90,matrix_multiplication_api_misused,defect_proneness,confound_type,architectural_rewrite,feature_addition,feature_addition,The weights parameter is a genuinely new capability for end users
+389724b8,unnecessary_iteration,defect_proneness,confound_type,feature_addition,architectural_rewrite,feature_addition,Pagination and check_connection() are new end-user features. The AST-based rewrite is the mechanism but new functionality drives the metric.
+44d53fda,columns_and_datatype_not_explicitly_set,defect_proneness,type_hints,Yes,No,Yes,new function has type-annotated signature
+cbac7553,in_place_apis_misused,defect_proneness,type_hints,Yes,No,Yes,The new PrepareDeep class methods all have type annotations
+862ad84f,pytorch_call_method_misused,defect_proneness,documentation,No,Yes,No,Type alias # comments like # TODO: Automatically synthesize these Union types are not docstrings or substantive inline documentation.
+862ad84f,pytorch_call_method_misused,defect_proneness,confound_type,architectural_rewrite,test_refactor,test_refactor,The file is entirely test code and the dominant change is converting module-level script to a proper pytest structure.
+cbac7553,dataframe_conversion_api_misused,defect_proneness,type_hints,Yes,No,Yes,The new PrepareDeep class methods all have type annotations
+e9760d71,columns_and_datatype_not_explicitly_set,ml_specific,defensive_checks,No,Yes,Yes,"The assert field in [""mol"", ""smiles""] statement is clearly present in the new _featurize_mol() — it validates that the field parameter can only be one of two accepted values before proceeding. "
+f658b6f0,pytorch_call_method_misused,ml_specific,method_extraction,No,Yes,No,"The process() method was moved from enhancement_models.py to audio_to_audio_model.py — that is relocation across files, not method extraction within a file."
+f658b6f0,pytorch_call_method_misused,ml_specific,confound_type,architectural_rewrite,feature_addition,feature_addition,same as row 16
+c2ce8e31,gradients_not_cleared_before_backward_propagation,ml_specific,method_extraction,No,Yes,No,same as row 32
+c2ce8e31,gradients_not_cleared_before_backward_propagation,ml_specific,documentation,No,Yes,No,No docstrings on any of the five new functions. Commented-out code does not count.
+c2ce8e31,gradients_not_cleared_before_backward_propagation,ml_specific,refactored_nearby,No,Yes,No,"When the smell is in newly written code, there is no existing nearby code to refactor. refactored_nearby only applies when pre-existing code surrounding the smell is modified. "
+317a6c74,columns_and_datatype_not_explicitly_set,testing_quality,documentation,Yes,No,No,The comments were deleted
+317a6c74,columns_and_datatype_not_explicitly_set,testing_quality,refactored_nearby,No,Yes,Yes,"By our definition: ""code that is not directly related to the smell is modified in the same function or class where the smell appears"" → Yes, the MLeap additions inside test_profile_sparkml_pipeline would exist regardless of the smell."
+0b78c772,pytorch_call_method_misused,understandability,refactored_nearby,No,Yes,No,"By our definition: ""code that is not directly related to the smell is modified in the same function or class where the smell appears""; the entire class was deleted, so there's nothing to qualify as nearby refactoring separately from the smell removal itself."
+8a5d7499,matrix_multiplication_api_misused,testing_quality,refactored_nearby,No,Yes,Yes,the change is near the smell
+5ada3b8e,Chain_Indexing,understandability,method_extraction,Yes,No,No,"By our definition: ""existing code relocated into it"";  the old function was deleted, not extracted."
+5ada3b8e,Chain_Indexing,understandability,refactored_nearby,No,Yes,Yes,"batch_write() signature changed from (dl_batch, pred_batch) to (batch), and nested_sep parameter added to TsvBatchWriter.__init__. These are in the same class as the smell. Would these exist without the smell? The signature simplification was part of the API redesign, not the smell fix itself. "
+5ada3b8e,Chain_Indexing,understandability,confound_type,feature_addition,architectural_rewrite,architectural_rewrite,It is not completely new feature; mostly completing the previous code
+1ca773e4,gradients_not_cleared_before_backward_propagation,ml_specific,method_extraction,Yes,No,No,"New implementation, not existing code relocated"
+1ca773e4,gradients_not_cleared_before_backward_propagation,ml_specific,type_hints,No,Yes,Yes,Dataframe types were defined
+1ca773e4,gradients_not_cleared_before_backward_propagation,ml_specific,documentation,No,Yes,Yes,New docstring added to gradients() with parameter descriptions
+1ca773e4,gradients_not_cleared_before_backward_propagation,ml_specific,refactored_nearby,No,Yes,Yes,"Old methods renamed to *_orig in same class, unrelated to smell"
+195d279f,unnecessary_iteration,ml_specific,method_extraction,Yes,No,No,It is the new function
+195d279f,unnecessary_iteration,ml_specific,documentation,No,Yes,Yes,Documentation was added
+195d279f,unnecessary_iteration,ml_specific,defensive_checks,Yes,No,No,New if extract_fields is not None: guard added to traces_to_df()
+d992cac2,memory_not_freed,defect_proneness,method_extraction,Yes,No,No,"Old methods deleted, not relocated into new functions"
+d992cac2,memory_not_freed,defect_proneness,refactored_nearby,No,Yes,Yes,"Training loop restructured in same function, unrelated to smell"
+d992cac2,memory_not_freed,defect_proneness,confound_type,architectural_rewrite,feature_addition,architectural_rewrite,Same behaviour restructured into callback pattern; no new end-user functionality
+cc0b9305,merge_api_parameter_not_explicitly_set,ml_specific,documentation,No,Yes,Yes,Docstrings updated with new seed parameter descriptions
+cc0b9305,merge_api_parameter_not_explicitly_set,ml_specific,defensive_checks,Yes,No,No,
+d5474686,columns_and_datatype_not_explicitly_set,ml_specific,documentation,No,Yes,Yes,The new pbmcs_10x_cite_seq() function has a full NumPy-style docstring with Parameters and Returns sections — new text that did not exist before.
+d5474686,columns_and_datatype_not_explicitly_set,ml_specific,defensive_checks,Yes,No,No,
+8ddbd6b8,in_place_apis_misused,defect_proneness,refactored_nearby,No,Yes,Yes,"By our definition: ""code that is not directly related to the smell is modified in the same function or class"" — the class was deleted wholesale, so there is no separate nearby modification."
+8ddbd6b8,in_place_apis_misused,defect_proneness,confound_type,architectural_rewrite,feature_addition,architectural_rewrite,"The entire GroupedEstimator class was replaced by a deprecation wrapper delegating to GroupedPredictor. No new functionality was added — the purpose was to deprecate an old API. This is a classic architectural restructuring (class hierarchy changed, delegation pattern introduced)."
+b36404ca,matrix_multiplication_api_misused,understandability,refactored_nearby,No,Yes,Yes,"Function renamed and imports updated in same function, independent of smell"
+b36404ca,matrix_multiplication_api_misused,understandability,confound_type,style_normalization,architectural_rewrite,architectural_rewrite,the change is bigger than only style
+f50bcfcc,Chain_Indexing,ml_specific,confound_type,feature_addition,architectural_rewrite,architectural_rewrite,Same functionality restructured from DataFrame output to array attributes; no new end-user features
+8ac8d4f9,gradients_not_cleared_before_backward_propagation,ml_specific,documentation,No,Yes,Yes,We have inline comments
+8ac8d4f9,gradients_not_cleared_before_backward_propagation,ml_specific,defensive_checks,Yes,No,No,No new if/raise or None checks added in the refactored training loop
+20f03388,dataframe_conversion_api_misused,understandability,method_extraction,Yes,No,No,Old transform() deleted and fit()/set_loss() added with new logic — no relocation of existing code
+8371ff59,unnecessary_iteration,defect_proneness,refactored_nearby,No,Yes,Yes,
+8371ff59,unnecessary_iteration,defect_proneness,confound_type,style_normalization,architectural_rewrite,architectural_rewrite,Module structure fundamentally redesigned — multi-function module flattened to __main__ block
+1cea2b0f,columns_and_datatype_not_explicitly_set,ml_specific,method_extraction,Yes,No,No,New code was added
+1cea2b0f,columns_and_datatype_not_explicitly_set,ml_specific,defensive_checks,Yes,No,Yes,We have checks for None values
+af7c4f51,in_place_apis_misused,ml_specific,refactored_nearby,No,Yes,Yes,"predict() substantially refactored with NaN handling and path unification, unrelated to smell"
+af7c4f51,in_place_apis_misused,ml_specific,defensive_checks,Yes,No,No,
+69ef0221,matrix_multiplication_api_misused,testing_quality,method_extraction,Yes,No,No,New test methods with all-new code; no existing code relocated
+ad150e70,Chain_Indexing,ml_specific,refactored_nearby,No,Yes,Yes,"_create_batches and constructor refactored in same class, independent of smell"
+ad150e70,Chain_Indexing,ml_specific,confound_type,style_normalization,architectural_rewrite,architectural_rewrite,DataFrame output replaced by array attributes — fundamental structural redesign
+5ea6aec8,gradients_not_cleared_before_backward_propagation,defect_proneness,refactored_nearby,No,Yes,Yes,Multiple methods added/deleted in same class independent of smell
+5ea6aec8,gradients_not_cleared_before_backward_propagation,defect_proneness,confound_type,style_normalization,architectural_rewrite,architectural_rewrite,Monolithic fit() decomposed into hook-based methods; class inherits from Trainer
+c07a2435,dataframe_conversion_api_misused,understandability,defensive_checks,Yes,No,No,
+c2354243,unnecessary_iteration,understandability,defensive_checks,Yes,No,Yes,
+07bc30de,memory_not_freed,defect_proneness,method_extraction,Yes,No,No,New functions added for new transformer types; no existing code relocated
+00c632f1,columns_and_datatype_not_explicitly_set,testing_quality,refactored_nearby,No,Yes,No,Only function renames — no logic modified in any function
+00c632f1,columns_and_datatype_not_explicitly_set,testing_quality,confound_type,style_normalization,test_refactor,style_normalization,Pure naming change (test_N → *_subtest); no test restructuring
+64688e1e,pytorch_call_method_misused,ml_specific,documentation,Yes,No,No,
+8b5b92b0,matrix_multiplication_api_misused,understandability,documentation,Yes,No,No,All docstrings deleted with implementation; single import line remains
+a48da2fe,Chain_Indexing,ml_specific,method_extraction,Yes,No,Yes,Model loading logic relocated from from_pretrained_model() into new load_model() function
+a48da2fe,Chain_Indexing,ml_specific,refactored_nearby,No,Yes,Yes,BertNERLearner now inherits from Learner; class hierarchy changed in same class as smell
+a48da2fe,Chain_Indexing,ml_specific,defensive_checks,Yes,No,Yes,New if torch.cuda.is_available() and if finetuned_wgts_path: guards added
+99243c04,dataframe_conversion_api_misused,ml_specific,refactored_nearby,No,Yes,Yes,"write_predictions() and evaluate() rewritten as part of pandas→json migration, independent of smell"
+99243c04,dataframe_conversion_api_misused,ml_specific,defensive_checks,No,Yes,Yes,New if id_ not in pre: raise FileNotFoundError added in evaluate()
+99243c04,dataframe_conversion_api_misused,ml_specific,confound_type,style_normalization,architectural_rewrite,architectural_rewrite,Full pandas→json library migration; fundamental restructuring of data access
+55d6266f,gradients_not_cleared_before_backward_propagation,ml_specific,method_extraction,Yes,No,No,"Complete rewrite — new functions are reimplementations, not relocations of existing code"
+b072ab22,merge_api_parameter_not_explicitly_set,code_size,refactored_nearby,No,Yes,Yes,Same commit resolved for other dimension — function renamed and imports updated in same function
+91f0d3f2,memory_not_freed,structural_complexity,method_extraction,Yes,No,No,"Same commit resolved for other dimension — new implementation, not existing code relocated"
+27ceb838,columns_and_datatype_not_explicitly_set,ml_specific,defensive_checks,Yes,No,No,
+e2f282eb,Chain_Indexing,ml_specific,refactored_nearby,Yes,No,No,The whole method including the smell was deleted
+e2f282eb,Chain_Indexing,ml_specific,confound_type,feature_addition,architectural_rewrite,architectural_rewrite,
+7fb35d63,dataframe_conversion_api_misused,testing_quality,documentation,No,Yes,Yes,New inline # comments added in test body
+08297fb7,unnecessary_iteration,understandability,method_extraction,Yes,No,Yes,
+08297fb7,unnecessary_iteration,understandability,documentation,No,Yes,Yes,
+08297fb7,unnecessary_iteration,understandability,defensive_checks,Yes,No,No,
+ed353021,merge_api_parameter_not_explicitly_set,code_size,confound_type,feature_addition,architectural_rewrite,architectural_rewrite,
+bca4746f,columns_and_datatype_not_explicitly_set,testing_quality,method_extraction,Yes,No,No,
+bca4746f,columns_and_datatype_not_explicitly_set,testing_quality,documentation,No,Yes,Yes,Same commit resolved earlier — new # comments added
+bca4746f,columns_and_datatype_not_explicitly_set,testing_quality,refactored_nearby,No,Yes,Yes,Same commit resolved earlier — MLeap additions inside same test function
+bca4746f,columns_and_datatype_not_explicitly_set,testing_quality,defensive_checks,Yes,No,Yes,
+bca4746f,columns_and_datatype_not_explicitly_set,testing_quality,confound_type,feature_addition,test_refactor,feature_addition,"New MLeap comparison added to profiling script — new functionality, not test restructuring"
+c4c65119,in_place_apis_misused,defect_proneness,type_hints,No,Yes,Yes,
+c4c65119,in_place_apis_misused,defect_proneness,documentation,No,Yes,Yes,Inline comments
+87872b3b,pytorch_call_method_misused,ml_specific,method_extraction,Yes,No,No,New file — no existing code relocated into new methods
+5d602fc6,dataframe_conversion_api_misused,understandability,refactored_nearby,Yes,No,Yes,"loss property replaced by set_loss() in same class, independent of smell"
+26a096c2,gradients_not_cleared_before_backward_propagation,understandability,method_extraction,No,Yes,No,"Same commit resolved earlier — old methods deleted, not relocated"
+26a096c2,gradients_not_cleared_before_backward_propagation,understandability,documentation,No,Yes,Yes,Inline comments

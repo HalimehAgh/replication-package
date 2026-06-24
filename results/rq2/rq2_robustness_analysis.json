@@ -1,0 +1,80 @@
+{
+  "stage2_alpha_sensitivity": {
+    "0.01": {
+      "significant_tests": "3",
+      "significant_rate": 0.041666666666666664
+    },
+    "0.05": {
+      "significant_tests": "4",
+      "significant_rate": 0.05555555555555555
+    },
+    "0.1": {
+      "significant_tests": "7",
+      "significant_rate": 0.09722222222222222
+    }
+  },
+  "stage1_threshold_sensitivity": {
+    "0.1": {
+      "qualified_smells": [
+        "Chain_Indexing",
+        "columns_and_datatype_not_explicitly_set",
+        "in_place_apis_misused"
+      ],
+      "n_qualified": 3
+    },
+    "0.15": {
+      "qualified_smells": [
+        "Chain_Indexing",
+        "columns_and_datatype_not_explicitly_set",
+        "in_place_apis_misused",
+        "unnecessary_iteration"
+      ],
+      "n_qualified": 4
+    }
+  },
+  "sample_size_sensitivity": {
+    "n_ge_30": {
+      "testable_smell_transitions": 16
+    },
+    "n_ge_20": {
+      "testable_smell_transitions": 17
+    }
+  },
+  "by_smell_type": {
+    "dataframe_conversion_api_misused": {
+      "total_tests": 12,
+      "stable_conclusions": 11,
+      "stability_rate": 0.9166666666666666
+    },
+    "gradients_not_cleared_before_backward_propagation": {
+      "total_tests": 12,
+      "stable_conclusions": 12,
+      "stability_rate": 1.0
+    },
+    "columns_and_datatype_not_explicitly_set": {
+      "total_tests": 12,
+      "stable_conclusions": 9,
+      "stability_rate": 0.75
+    },
+    "unnecessary_iteration": {
+      "total_tests": 12,
+      "stable_conclusions": 12,
+      "stability_rate": 1.0
+    },
+    "Chain_Indexing": {
+      "total_tests": 12,
+      "stable_conclusions": 12,
+      "stability_rate": 1.0
+    },
+    "in_place_apis_misused": {
+      "total_tests": 12,
+      "stable_conclusions": 12,
+      "stability_rate": 1.0
+    }
+  },
+  "summary": {
+    "total_tests": 72,
+    "stable_conclusions": 68,
+    "stability_rate": 0.9444444444444444
+  }
+}

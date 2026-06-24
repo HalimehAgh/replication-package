@@ -1,0 +1,117 @@
+{
+  "alpha_levels": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "by_alpha": {
+    "0.01": {
+      "significant_tests": "11",
+      "supported_hypotheses": 9,
+      "significant_rate": 0.9166666666666666
+    },
+    "0.05": {
+      "significant_tests": "11",
+      "supported_hypotheses": 9,
+      "significant_rate": 0.9166666666666666
+    },
+    "0.1": {
+      "significant_tests": "11",
+      "supported_hypotheses": 9,
+      "significant_rate": 0.9166666666666666
+    }
+  },
+  "stable_conclusions": [
+    {
+      "hypothesis_id": "H1.1",
+      "dimension": "structural_complexity",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 2.2692292489523425e-11
+    },
+    {
+      "hypothesis_id": "H1.2",
+      "dimension": "code_size",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.1102230246251565e-16
+    },
+    {
+      "hypothesis_id": "H1.3",
+      "dimension": "defect_proneness",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.3308820712154557e-10
+    },
+    {
+      "hypothesis_id": "H1.4",
+      "dimension": "understandability",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 0.001281744368314519
+    },
+    {
+      "hypothesis_id": "H1.5",
+      "dimension": "testing_quality",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.1102230246251565e-16
+    },
+    {
+      "hypothesis_id": "H1.6",
+      "dimension": "ml_specific",
+      "transition": "introduction",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.5105583450747417e-11
+    },
+    {
+      "hypothesis_id": "H2.1",
+      "dimension": "structural_complexity",
+      "transition": "removal",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.1102230246251565e-16
+    },
+    {
+      "hypothesis_id": "H2.2",
+      "dimension": "code_size",
+      "transition": "removal",
+      "conclusion": "Significant at all levels",
+      "p_value": 1.1102230246251565e-16
+    },
+    {
+      "hypothesis_id": "H2.3",
+      "dimension": "defect_proneness",
+      "transition": "removal",
+      "conclusion": "Significant at all levels",
+      "p_value": 5.225317379675687e-06
+    },
+    {
+      "hypothesis_id": "H2.4",
+      "dimension": "understandability",
+      "transition": "removal",
+      "conclusion": "Significant at all levels",
+      "p_value": 3.500730500849425e-05
+    },
+    {
+      "hypothesis_id": "H2.5",
+      "dimension": "testing_quality",
+      "transition": "removal",
+      "conclusion": "Significant at all levels",
+      "p_value": 0.004027211376708695
+    },
+    {
+      "hypothesis_id": "H2.6",
+      "dimension": "ml_specific",
+      "transition": "removal",
+      "conclusion": "Not significant at any level",
+      "p_value": 0.11045091114807826
+    }
+  ],
+  "unstable_conclusions": [],
+  "summary": {
+    "total_tests": 12,
+    "stable_conclusions": 12,
+    "unstable_conclusions": 0,
+    "stability_rate": 1.0
+  }
+}
