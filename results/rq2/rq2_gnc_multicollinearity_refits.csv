@@ -1,0 +1,4 @@
+refit,beta_instance_count,aggregate_p_raw,GNC_VIF,model_max_VIF,passes_stage1_p<0.10
+(a) drop lines_deleted,0.004342858653406317,0.08519579004486766,1.0189523850933733,1.5207087666191057,True
+(b) orthogonalize lines_deleted on GNC,0.0045854233084184,0.08904714971026784,1.0535135327743963,14.981518886671887,True
+(c) drop GNC entirely,,,,15.017538219154487,

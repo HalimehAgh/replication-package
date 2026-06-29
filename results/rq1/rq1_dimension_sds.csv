@@ -1,0 +1,13 @@
+transition,dimension,SD_delta,n
+introduction,structural_complexity,0.017505292149335,5890
+introduction,code_size,0.007685806483661055,5890
+introduction,defect_proneness,0.04007798822446112,5890
+introduction,understandability,0.03870888981602836,5890
+introduction,testing_quality,0.034631933405778005,5890
+introduction,ml_specific,0.05264167450638656,5890
+removal,structural_complexity,0.02952279962934981,2937
+removal,code_size,0.019228321405073447,2937
+removal,defect_proneness,0.04939689388250248,2937
+removal,understandability,0.053067015340446014,2937
+removal,testing_quality,0.044354411789180044,2937
+removal,ml_specific,0.06340078529752301,2937

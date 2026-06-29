@@ -1,0 +1,5 @@
+cell,dimension,transition,n_cdtne,n_other,mean_cdtne,mean_other,cohens_d,interpretation
+CDTNE x code_size x introduction,code_size,introduction,3134,3747,0.002804003769434884,0.0027286636821290304,0.008854070588656527,negligible/small
+CDTNE x defect_proneness x introduction,defect_proneness,introduction,3134,3747,0.0003765457311532606,0.00020107973313161515,0.004312327505410206,negligible/small
+CDTNE x structural_complexity x removal,structural_complexity,removal,1431,2011,-0.00613607708925277,-0.009321220186661391,0.07710934043640008,negligible/small
+CDTNE x code_size x removal,code_size,removal,1431,2011,-0.003561769614183049,-0.004594963864996451,0.030936464475381377,negligible/small

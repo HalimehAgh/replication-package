@@ -1,29 +1,27 @@
-title,authors,year,venue,category
-Guidelines for performing Systematic Literature Reviews in Software Engineering,"Kitchenham, B.; Charters, S.",2007,"Technical Report EBSE-2007-01, Keele University & Durham University",Framework or tool papers with evaluation
-The PRISMA 2020 statement: an updated guideline for reporting systematic reviews,"Page, M. J.; McKenzie, J. E.; Bossuyt, P. M.; et al.",2021,"BMJ, 372",Framework or tool papers with evaluation
-Code smells for machine learning applications,"Zhang, H.; Cruz, L.; Van Deursen, A.",2022,"Proc. 1st Int. Conf. on AI Engineering: Software Engineering for AI (CAIN), pp. 217-228",Empirical studies
-When code smells meet ML: on the lifecycle of ML-specific code smells in ML-enabled systems,"Recupito, G.; Giordano, G.; Ferrucci, F.; Di Nucci, D.; Palomba, F.",2025,"Empirical Software Engineering, vol. 30",Empirical studies
-AI-Specific Code Smells: From Specification to Detection,"Giordano, G.; et al.",2024,arXiv preprint arXiv:2509.20491,Framework or tool papers with evaluation
-Hidden technical debt in machine learning systems,"Sculley, D.; Holt, G.; Golovin, D.; et al.",2015,"Advances in Neural Information Processing Systems (NeurIPS), Vol. 28",Technical debt studies
-An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software,"Bhatia, S.; Singh, J. K.; Mahmoud, A.",2024,arXiv preprint arXiv:2311.12019,Technical debt studies
-A systematic literature review of machine learning techniques for software maintainability prediction,"Nunez-Varela, A. S.; Perez-Gonzalez, H. G.; Martinez-Perez, F. E.; Soubervielle-Montalvo, C.",2019,"Information and Software Technology, 109, 1-27",Reviews and surveys
-A tool-based perspective on software code maintainability metrics: A systematic literature review,"Ardito, L.; Coppola, R.; Barbato, L.; Verga, D.",2020,"Scientific Programming, 2020",Reviews and surveys
-Measuring code maintainability with deep neural networks,"Odeh, S.; Kakish, K.; Hamoui, A.",2023,"Frontiers of Computer Science, 17(6), 176315",Framework or tool papers with evaluation
-Maintainability and Scalability in Machine Learning: Challenges and Solutions,"Haakman, M.; Cruz, L.; Huijgens, H.; van Deursen, A.",2024,ACM Computing Surveys,Reviews and surveys
-Maintainability Challenges in ML: A Systematic Literature Review,"Shivashankar, K.; Martini, A.",2022,"48th Euromicro Conf. on Software Engineering and Advanced Applications (SEAA), IEEE",Reviews and surveys
-Temporal quality degradation in AI models,"Finlayson, S. G.; Subbaswamy, A.; Singh, K.; et al.",2022,"Scientific Reports, 12(1), 11654",Empirical studies
-A Survey of Data Quality Requirements That Matter in ML Development Pipelines,"Schelter, S.; Stoyanovich, J.",2023,"Journal of Data and Information Quality, 15(2), 1-39",Reviews and surveys
-On calibration of modern neural networks,"Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K. Q.",2017,"Int. Conf. on Machine Learning (ICML), pp. 1321-1330, PMLR",Empirical studies
-Uncertainty Quantification in Machine Learning for Engineering Design and Health Prognostics: A Tutorial,"Nemani, V.; Biggio, L.; Huan, X.; et al.",2023,arXiv preprint arXiv:2305.04933,Reviews and surveys
-A survey of uncertainty in deep neural networks,"Gawlikowski, J.; et al.",2023,"Artificial Intelligence Review, 56, 1513-1589",Reviews and surveys
-A survey on machine learning approaches for uncertainty quantification of engineering systems,"Shi, Y.; Wei, P.; Feng, K.; Feng, D.-C.; Beer, M.",2024,"Machine Learning for Computational Science and Engineering, vol. 1 (Springer)",Reviews and surveys
-Measuring Calibration in Deep Learning,"Nixon, J.; Dusenberry, M. W.; Zhang, L.; Jerfel, G.; Tran, D.",2019,IEEE/CVF CVPR Workshops,Empirical studies
-Improving reproducibility in machine learning research,"Pineau, J.; Vincent-Lamarre, P.; Sinha, K.; et al.",2021,"Journal of Machine Learning Research, 22(1), 1-20",Empirical studies
-Decomposed Halstead Complexity Metrics for Improved Software Maintainability,"Khan, J. A.; Nadeem, A.",2023,IEEE Access,Empirical studies
-Predicting Software Cohesion Metrics Using Machine Learning,"Gupta, R.; et al.",2023,Software Quality Journal,Empirical studies
-Evaluation of large language models for assessing code maintainability,"Dillmann, J.; et al.",2024,arXiv preprint arXiv:2401.12714,Empirical studies
-The prevalence of code smells in machine learning projects,"van Oort, B.; Cruz, L.; Aniche, M.; van Deursen, A.",2021,arXiv preprint arXiv:2103.04146 (Proc. WAIN @ ICSE 2021),Empirical studies
-The state of machine learning engineering practice,"Gonzalez, D.; Zimmermann, T.; Nagappan, N.",2020,Proc. ACM/IEEE 42nd Int. Conf. on Software Engineering: SE in Practice (ICSE-SEIP),Empirical studies
-Software engineering for machine learning: A case study,"Amershi, S.; Begel, A.; Bird, C.; DeLine, R.; Gall, H.; Kamar, E.; Nagappan, N.; Nushi, B.; Zimmermann, T.",2019,Proc. 41st Int. Conf. on Software Engineering: SE in Practice (ICSE-SEIP),Empirical studies
-An empirical study of refactorings and technical debt in machine learning systems,"Tang, Y.; Khatchadourian, R.; Bagherzadeh, M.; Singh, R.; Stewart, A.; Raja, A.",2021,Proc. 43rd Int. Conf. on Software Engineering (ICSE),Technical debt studies
-Pynblint: A quality assurance tool to improve the quality of Python Jupyter notebooks,"Quaranta, L.; Calefato, F.; Lanubile, F.",2024,"SoftwareX, 28, 101959",Framework or tool papers with evaluation
+title,authors,year,venue,category
+Code smells for machine learning applications,"Zhang, H.; Cruz, L.; Van Deursen, A.",2022,"Proc. 1st Int. Conf. on AI Engineering: Software Engineering for AI (CAIN), pp. 217-228",Empirical studies
+When code smells meet ML: on the lifecycle of ML-specific code smells in ML-enabled systems,"Recupito, G.; Giordano, G.; Ferrucci, F.; Di Nucci, D.; Palomba, F.",2025,"Empirical Software Engineering, vol. 30",Empirical studies
+AI-Specific Code Smells: From Specification to Detection,"Mahmoudi, B.; Moha, N.; Stiévenart, Q.; Avellaneda, F.",2025,arXiv preprint arXiv:2509.20491,Framework or tool papers with evaluation
+Hidden technical debt in machine learning systems,"Sculley, D.; Holt, G.; Golovin, D.; et al.",2015,"Advances in Neural Information Processing Systems (NeurIPS), Vol. 28",Technical debt studies
+An Empirical Study of Self-Admitted Technical Debt in Machine Learning Software,"Bhatia, S.; Singh, J. K.; Mahmoud, A.",2024,arXiv preprint arXiv:2311.12019,Technical debt studies
+A systematic literature review of machine learning techniques for software maintainability prediction,"Nunez-Varela, A. S.; Perez-Gonzalez, H. G.; Martinez-Perez, F. E.; Soubervielle-Montalvo, C.",2019,"Information and Software Technology, 109, 1-27",Reviews and surveys
+A tool-based perspective on software code maintainability metrics: A systematic literature review,"Ardito, L.; Coppola, R.; Barbato, L.; Verga, D.",2020,"Scientific Programming, 2020",Reviews and surveys
+Measuring code maintainability with deep neural networks,"Odeh, S.; Kakish, K.; Hamoui, A.",2023,"Frontiers of Computer Science, 17(6), 176315",Framework or tool papers with evaluation
+Maintainability and Scalability in Machine Learning: Challenges and Solutions,"Haakman, M.; Cruz, L.; Huijgens, H.; van Deursen, A.",2024,ACM Computing Surveys,Reviews and surveys
+Maintainability Challenges in ML: A Systematic Literature Review,"Shivashankar, K.; Martini, A.",2022,"48th Euromicro Conf. on Software Engineering and Advanced Applications (SEAA), IEEE",Reviews and surveys
+Temporal quality degradation in AI models,"Finlayson, S. G.; Subbaswamy, A.; Singh, K.; et al.",2022,"Scientific Reports, 12(1), 11654",Empirical studies
+A Survey of Data Quality Requirements That Matter in ML Development Pipelines,"Schelter, S.; Stoyanovich, J.",2023,"Journal of Data and Information Quality, 15(2), 1-39",Reviews and surveys
+On calibration of modern neural networks,"Guo, C.; Pleiss, G.; Sun, Y.; Weinberger, K. Q.",2017,"Int. Conf. on Machine Learning (ICML), pp. 1321-1330, PMLR",Empirical studies
+Uncertainty Quantification in Machine Learning for Engineering Design and Health Prognostics: A Tutorial,"Nemani, V.; Biggio, L.; Huan, X.; et al.",2023,arXiv preprint arXiv:2305.04933,Reviews and surveys
+A survey of uncertainty in deep neural networks,"Gawlikowski, J.; et al.",2023,"Artificial Intelligence Review, 56, 1513-1589",Reviews and surveys
+A survey on machine learning approaches for uncertainty quantification of engineering systems,"Shi, Y.; Wei, P.; Feng, K.; Feng, D.-C.; Beer, M.",2024,"Machine Learning for Computational Science and Engineering, vol. 1 (Springer)",Reviews and surveys
+Measuring Calibration in Deep Learning,"Nixon, J.; Dusenberry, M. W.; Zhang, L.; Jerfel, G.; Tran, D.",2019,IEEE/CVF CVPR Workshops,Empirical studies
+Improving reproducibility in machine learning research,"Pineau, J.; Vincent-Lamarre, P.; Sinha, K.; et al.",2021,"Journal of Machine Learning Research, 22(1), 1-20",Empirical studies
+Decomposed Halstead Complexity Metrics for Improved Software Maintainability,"Khan, J. A.; Nadeem, A.",2023,IEEE Access,Empirical studies
+Predicting Software Cohesion Metrics Using Machine Learning,"Gupta, R.; et al.",2023,Software Quality Journal,Empirical studies
+Evaluation of large language models for assessing code maintainability,"Dillmann, J.; et al.",2024,arXiv preprint arXiv:2401.12714,Empirical studies
+The prevalence of code smells in machine learning projects,"van Oort, B.; Cruz, L.; Aniche, M.; van Deursen, A.",2021,arXiv preprint arXiv:2103.04146 (Proc. WAIN @ ICSE 2021),Empirical studies
+The state of machine learning engineering practice,"Gonzalez, D.; Zimmermann, T.; Nagappan, N.",2020,Proc. ACM/IEEE 42nd Int. Conf. on Software Engineering: SE in Practice (ICSE-SEIP),Empirical studies
+Software engineering for machine learning: A case study,"Amershi, S.; Begel, A.; Bird, C.; DeLine, R.; Gall, H.; Kamar, E.; Nagappan, N.; Nushi, B.; Zimmermann, T.",2019,Proc. 41st Int. Conf. on Software Engineering: SE in Practice (ICSE-SEIP),Empirical studies
+An empirical study of refactorings and technical debt in machine learning systems,"Tang, Y.; Khatchadourian, R.; Bagherzadeh, M.; Singh, R.; Stewart, A.; Raja, A.",2021,Proc. 43rd Int. Conf. on Software Engineering (ICSE),Technical debt studies
+Pynblint: A quality assurance tool to improve the quality of Python Jupyter notebooks,"Quaranta, L.; Calefato, F.; Lanubile, F.",2024,"SoftwareX, 28, 101959",Framework or tool papers with evaluation

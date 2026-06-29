@@ -1,0 +1,5 @@
+cell,dimension,transition,beta_pca,p_raw,n_obs,n_clusters,p_adj_BH,sig_0.05
+CDTNE x code_size x introduction,code_size,introduction,0.02819039220095286,3.5360554151431245e-07,3134,1620,1.4144221660572498e-06,True
+CDTNE x defect_proneness x introduction,defect_proneness,introduction,0.029804987516587427,6.117047362197425e-06,3134,1620,1.223409472439485e-05,True
+CDTNE x structural_complexity x removal,structural_complexity,removal,-0.04112848418508168,5.3365129123461585e-05,1431,874,7.115350549794879e-05,True
+CDTNE x code_size x removal,code_size,removal,-0.05506044445418956,0.0012068728137770712,1431,874,0.0012068728137770712,True
